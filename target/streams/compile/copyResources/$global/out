@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/application.conf,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/evolutions,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/play.plugins,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/routes,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/evolutions/default,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/florianeMac/Documents/GitHub/awiversion2/conf/evolutions/default/1.sql,/Users/florianeMac/Documents/GitHub/awiversion2/target/scala-2.10/classes/evolutions/default/1.sql)[0m

@@ -1,0 +1,258 @@
+2017-06-29 00:57:52,290 - [INFO] - from play in pool-6-thread-1 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2017-06-29 01:00:23,395 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:play
+
+2017-06-29 01:00:24,230 - [ERROR] - from application in New I/O worker #3 
+
+
+! @74fbl5mh6 - Internal server error, for (GET) [/assets/javascripts/jquery-1.9.0.min.js] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.3.jar:na]
+
+2017-06-29 01:00:24,438 - [ERROR] - from application in New I/O worker #2 
+
+
+! @74fbl5mh6 - Internal server error, for (GET) [/assets/stylesheets/main.css] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.3.jar:na]
+
+2017-06-29 01:00:24,554 - [ERROR] - from application in New I/O worker #1 
+
+
+! @74fbl5mh6 - Internal server error, for (GET) [/] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:486) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:507) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:461) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:459) ~[play-jdbc_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.collection.immutable.List.foreach(List.scala:318) ~[scala-library-2.10.3.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.api.Play$.start(Play.scala:87) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.util.Success.flatMap(Try.scala:200) ~[scala-library-2.10.3.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.10-2.2.6.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10-2.2.6.jar:2.2.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.3.jar:na]
+
+2017-06-29 01:00:28,632 - [INFO] - from application in play-internal-execution-context-1 
+[securesocial] unloaded identity provider: google
+
+2017-06-29 01:00:28,922 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:play
+
+2017-06-29 01:00:29,246 - [INFO] - from application in play-internal-execution-context-1 
+[securesocial] loaded templates plugin: securesocial.controllers.DefaultTemplatesPlugin
+
+2017-06-29 01:00:29,383 - [INFO] - from play in play-internal-execution-context-1 
+Starting application default Akka system.
+
+2017-06-29 01:00:29,388 - [DEBUG] - from application in play-akka.actor.default-dispatcher-4 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:00:29,390 - [INFO] - from application in play-internal-execution-context-1 
+[securesocial] loaded user service: class service.InMemoryUserService
+
+2017-06-29 01:00:29,391 - [INFO] - from application in play-internal-execution-context-1 
+[securesocial] loaded identity provider: google
+
+2017-06-29 01:00:29,400 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2017-06-29 01:00:29,575 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] anonymous user trying to access : /
+
+2017-06-29 01:00:29,604 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] bootstrap path = securesocial/bootstrap/css/bootstrap.min.css
+
+2017-06-29 01:00:29,605 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] assets controller = controllers.ReverseAssets
+
+2017-06-29 01:00:29,611 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] favicon path = securesocial/images/favicon.png
+
+2017-06-29 01:00:29,613 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] Jquery path = securesocial/javascripts/jquery-1.7.1.min.js
+
+2017-06-29 01:00:29,613 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+[securesocial] custom css path = None
+
+2017-06-29 01:00:29,969 - [ERROR] - from application in play-akka.actor.default-dispatcher-4 
+[securesocial] can't find provider for id userpass
+
+2017-06-29 01:00:34,269 - [DEBUG] - from application in play-akka.actor.default-dispatcher-6 
+[securesocial] authorizationUrl = https://accounts.google.com/o/oauth2/auth
+
+2017-06-29 01:00:34,271 - [DEBUG] - from application in play-akka.actor.default-dispatcher-6 
+[securesocial] redirecting to: [https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&client_id=547895014272-6mo15hsep9fsj4oglnilg4tk713mom3q.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&response_type=code&state=6d5b99e7-b3a9-4a3a-9cd0-b5b004b080c9]
+
+2017-06-29 01:05:29,461 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:10:29,430 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:15:29,436 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:20:29,458 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:25:29,463 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:30:29,483 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:35:29,496 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:40:29,500 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:45:29,531 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:50:29,537 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 01:55:29,549 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:00:29,554 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:05:29,578 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:10:29,591 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:15:29,603 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:20:29,614 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:25:29,627 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 02:30:29,638 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 08:57:00,709 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 13:54:01,253 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 13:59:01,243 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 14:04:01,192 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 14:09:01,197 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:17:36,943 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:31:06,430 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:36:07,885 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:41:07,905 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:46:07,897 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:51:07,890 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-29 23:56:07,909 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
+2017-06-30 00:01:07,912 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+[securesocial] calling deleteExpiredTokens()
+
